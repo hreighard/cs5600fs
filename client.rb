@@ -9,7 +9,7 @@ loop do
   #send request to update tracker
     s.send "<updatetracker filename startbytes endbytes>"
   #request list of all trackers
-    s.send "<REQ list>"
+    s.send "<REQ LIST>"
   #request server to send file
     s.send "<GET filename>
 end
